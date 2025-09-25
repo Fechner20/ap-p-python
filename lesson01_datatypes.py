@@ -8,7 +8,6 @@ print("once upon a time \nand a very good time it was \nthere was a moocow")
 print("Name:\tJames \nAge: \t14 \nGrade: \t9")
 #INTEGERS
 
-
 print(42)
 print(-23)
 print(41 + 21 + 5)
