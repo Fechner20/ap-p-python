@@ -37,3 +37,30 @@ print("Result 4:",result4)
 
 result5=5 + 2 ** 3 * (4-1)
 print("Result 5: ", result5)
+
+
+#CHALLENGES
+
+#Challenge 1
+area=5*8
+print("Area: ", area)
+
+#Challenge 2
+
+circlearea=3.14*7**2
+print("Area: ",circlearea)
+
+#Challege 3
+
+shopping=12.99*3+3.50*4
+print("Cost: " ,shopping)
+
+#Challenge 4
+integer=67
+evenorodd=integer%2
+
+print("Remainder:",evenorodd)
+
+
+#If the remainder is greater than zero the number is odd if not even.
+#The remainder in this is one so therefore this number is odd.
