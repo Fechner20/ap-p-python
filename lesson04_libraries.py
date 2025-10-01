@@ -21,5 +21,34 @@ Step3=Seed+4.1
 Step4=math.floor(Step3)
 print(Step4)
 
+
+
+import random
+
+print("\n--- Random Library ---\n")
+
+print("Random Integer:" , random.randint(4,20))
+
+print(random.random())
+
+mylist=["Green Eggs","Ham"]
+print(random.choice(mylist))
+
+random.shuffle(mylist)
+print(mylist)
+
+
+#Challenge 1
+
+radius=14/2
+circle_area=radius**2*math.pi
+print(circle_area)
+
+#Challenge 2
+
+die_roll=random.randint(1,6)
+print(die_roll)
+
+
  
 
