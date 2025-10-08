@@ -33,3 +33,20 @@ phrase="JaMEs"
 print("\nUppercasse:",phrase.upper())
 print("Lowercase: ", phrase.lower())
 print("Capitillized:",phrase.capitalize())
+
+sentence="Hi"
+new_sentence=sentence.replace("Hi", "Hello")
+print(new_sentence)
+print(sentence)
+
+name="James"
+age=14
+city="Tewksbury"
+
+print(f"Hello, my name is {name}. I am {age} years old and live in {city}.")
+
+
+print(f"Next year , I'll be {age+ 1}. My name in uppercase is {name.upper()}.")
+
+
+
