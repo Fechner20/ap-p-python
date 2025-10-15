@@ -77,4 +77,33 @@ else:
     if day is not "Monday":
         print("It's not Monday")
 
+#Challenge 1
 
+#Modulous returns remainder
+ 
+number=int(input("Pick any number: "))
+if number % 2 is 0:
+    print("Your number is even")
+else:
+    print("Your number is odd")    
+
+#Challenge 2
+password="VHSHockeyRocks"
+pw=input("Password: ")
+if password != pw:
+    print("Acsess Denied ")
+else:
+    print("Accses Granted")
+
+#Challenge 3
+grade=int(input("Gimme your numeric grade in AP CS Principles with Mr. Harrell: "))
+if grade >= 90:
+    print("You have an A in AP CS Principles with Mr. Harrell.")
+elif grade >= 80:
+    print("You have a B in AP CS Principles with Mr. Harrell.")
+elif grade >= 70:
+    print("You have a C in AP CS Principles with Mr. Harrell.")
+elif grade > 60:
+    print("You have a D in AP CS Principles with Mr. Harrell.")
+else:
+    print("You have an F and you are failing AP CS Principles with Mr. Harrell.")
