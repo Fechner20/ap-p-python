@@ -50,3 +50,29 @@ print(f"Next year , I'll be {age+ 1}. My name in uppercase is {name.upper()}.")
 
 
 
+#Challenge 1
+
+quote=input("What is your favorite quote?")
+print("Your Quote is: ", len(quote),"characthers long")
+
+
+
+#Challenge 2
+firstname=input("Write your first name: ")
+lastname=input("Write your last name: ")
+print(f"Hello {lastname},{firstname}. Nice to meet you!")
+
+
+#Challenge 3
+
+word=input("Write a word:")
+print(word.upper())
+print(word.lower())
+print(word[::-1])
+
+
+
+
+
+
+
