@@ -15,6 +15,10 @@ print("----For Loop: visiting each animal----")
 for animal in animals:
     print("Now Petting a", animal)
     time.sleep(0)
+   
+    if animal == "lamb":
+         print("Hi lamb!")
+
 print("\nI have pet all the animals.")
 
 if animal == "sheep":
@@ -23,3 +27,53 @@ if animal == "sheep":
 #range
 for num in range(2,11,3):
         print("Even number: ", num,)
+
+
+print("---Iterating over strings --\n")
+
+fav_word="loquacious"
+letter_list= []
+
+for letter in fav_word:
+    print(letter, end= "")
+    letter_list.append(letter)
+    print(letter_list)
+
+print()
+
+
+# -------------------------------------------------------------------------------------------------------
+# WHILE LOOPS
+# -------------------------------------------------------------------------------------------------------
+
+
+#+= to add a variable, -= to subtract a variable
+import time
+count=0
+
+while count < 5:
+     print(f"Looping' . We are on loop # {count}. ")
+     count += 1 
+     time.sleep(0.5)
+
+print ("We have escaped the loop")
+
+user_input = ""
+
+ 
+while user_input != "exit":
+   user_input=input(" Type exit to escape:")
+
+
+
+count2 = 60
+increment = 1
+
+while count2 > 0:
+     count2 -= increment
+     increment += 1
+
+     if count2<0:
+        break
+
+     print(count2)
