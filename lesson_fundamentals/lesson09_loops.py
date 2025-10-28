@@ -77,3 +77,20 @@ while count2 > 0:
         break
 
      print(count2)
+
+    
+
+    # CHALLENGE 1
+import random
+
+amount=int(input("How many different fruits should I buy at the grocery store out of the the 7 they have?: "))
+fruits=["Blackberrys", "Bananas", "Jackfruit", "Dragon","Apples", "Bluberrys", "Mangos"]
+
+for fruit in range(amount):
+     print("You picked: ",random.choice(fruits))
+
+
+
+# CHALLENGE 2
+
+     
